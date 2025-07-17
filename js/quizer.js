@@ -352,9 +352,63 @@ const EN_2020_GR_PACK_1 = 1;
 let en_2020_gr = [
 	{
 		pack : EN_2020_GR_PACK_1,
-		group : 'Afric Simone',
-		song : "Hafanana (1975)",
-		ignore : true
+		group : 'Jonas Brothers',
+		song : "What a Man Gotta Do (2020)"
+	},
+	{
+		pack : EN_2020_GR_PACK_1,
+		group : 'Jonas Brothers',
+		song : "Leave Before You Love Me (ft Marshmello) (2021)"
+	},
+	{
+		pack : EN_2020_GR_PACK_1,
+		group : 'Jonas Brothers',
+		song : "Waffle House (2023)"
+	},
+	{
+		pack : EN_2020_GR_PACK_1,
+		group : 'Imagine Dragons',
+		song : "Blank Space (2022)"
+	},
+	{
+		pack : EN_2020_GR_PACK_1,
+		group : 'Imagine Dragons',
+		song : "Bones (2022)"
+	},
+	{
+		pack : EN_2020_GR_PACK_1,
+		group : 'Imagine Dragons',
+		song : "Enemy  (2021)"
+	},
+	{
+		pack : EN_2020_GR_PACK_1,
+		group : 'Tame Impala',
+		song : "Is It True (2020)"
+	},
+	{
+		pack : EN_2020_GR_PACK_1,
+		group : 'Tame Impala',
+		song : "Lost in Yesterday (2020)"
+	},
+	{
+		pack : EN_2020_GR_PACK_1,
+		group : 'Tame Impala',
+		song : "Breathe Deeper (2020)"
+	},
+	{
+		pack : EN_2020_GR_PACK_1,
+		group : 'Thirty Seconds to Mars',
+		song : "Lost These Days (2023)"
+	},
+	{
+		pack : EN_2020_GR_PACK_1,
+		group : 'Thirty Seconds to Mars',
+		song : "Stuck (2023)"
+	},
+	{
+		pack : EN_2020_GR_PACK_1,
+		group : 'Thirty Seconds to Mars',
+		song : "Seasons (2023)"
 	}
 ];
 
