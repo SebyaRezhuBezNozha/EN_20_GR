@@ -370,7 +370,8 @@ let en_2020_gr = [
 	{
 		pack : EN_2020_GR_PACK_2,
 		group : 'Imagine Dragons',
-		song : "Blank Space (2022)"
+		song : "Blank Space (2022)",
+		ignore : true
 	},
 	{
 		pack : EN_2020_GR_PACK_2,
@@ -551,6 +552,11 @@ let en_2020_gr = [
 		pack : EN_2020_GR_PACK_2,
 		group : 'Lamb of God',
 		song : "Dead Seeds (2020)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Imagine Dragons',
+		song : "Lonely (2021)"
 	}
 ];
 
