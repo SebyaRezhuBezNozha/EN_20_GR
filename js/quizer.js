@@ -344,10 +344,12 @@ function load(){
 // EN songs
 
 const en_2020_gr_icon = [
-	'pop'
+	'pop',
+	'rock'
 ];
 
 const EN_2020_GR_PACK_1 = 1;
+const EN_2020_GR_PACK_2 = 2;
 
 let en_2020_gr = [
 	{
@@ -366,17 +368,17 @@ let en_2020_gr = [
 		song : "Waffle House (2023)"
 	},
 	{
-		pack : EN_2020_GR_PACK_1,
+		pack : EN_2020_GR_PACK_2,
 		group : 'Imagine Dragons',
 		song : "Blank Space (2022)"
 	},
 	{
-		pack : EN_2020_GR_PACK_1,
+		pack : EN_2020_GR_PACK_2,
 		group : 'Imagine Dragons',
 		song : "Bones (2022)"
 	},
 	{
-		pack : EN_2020_GR_PACK_1,
+		pack : EN_2020_GR_PACK_2,
 		group : 'Imagine Dragons',
 		song : "Enemy  (2021)"
 	},
@@ -396,23 +398,164 @@ let en_2020_gr = [
 		song : "Breathe Deeper (2020)"
 	},
 	{
-		pack : EN_2020_GR_PACK_1,
+		pack : EN_2020_GR_PACK_2,
 		group : 'Thirty Seconds to Mars',
 		song : "Lost These Days (2023)"
 	},
 	{
-		pack : EN_2020_GR_PACK_1,
+		pack : EN_2020_GR_PACK_2,
 		group : 'Thirty Seconds to Mars',
 		song : "Stuck (2023)"
 	},
 	{
-		pack : EN_2020_GR_PACK_1,
+		pack : EN_2020_GR_PACK_2,
 		group : 'Thirty Seconds to Mars',
 		song : "Seasons (2023)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : '5 Seconds of Summer',
+		song : "Lonely Heart (2020)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'A Day to Remember',
+		song : "Mindreader (2020)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Asking Alexandria',
+		song : "Alone Again (2021)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Asking Alexandria',
+		song : "Dark Void (2024)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Bastille',
+		song : "Distorted Light Beam (2021)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Black Keys',
+		song : "Wild Child (2022)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Bring Me The Horizon',
+		song : "Kingslayer (ft BABYMETAL) (2020)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Cigarettes After Sex',
+		song : "Stop Waiting (2023)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Coldplay',
+		song : "My Universe (ft BTS) (2021)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Electric Callboy',
+		song : "Arrow of Love (2022)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Electric Callboy',
+		song : "We Got the Moves (2021)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Enter Shikari',
+		song : "It Hurts (2023)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Falling In Reverse',
+		song : "God Is a Weapon (ft Marilyn Manson) (2025)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Falling In Reverse',
+		song : "Watch the World Burn (2023)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Green Day',
+		song : "Holy Toledo! (2021)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'KALEO',
+		song : "Hey Gringo (2021)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Lamb of God',
+		song : "Dead Seeds (2020)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Muse',
+		song : "Will Of The People (2022)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Placebo',
+		song : "Forever Chemicals (2022)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Sabaton',
+		song : "Defence of Moscow (2021)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Sabaton',
+		song : "The Attack Of The Dead Men (2020)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Score',
+		song : "Fighter (2022)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Score',
+		song : "Head Up (2021)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Slaughter to Prevail',
+		song : "Demolisher (2020)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Smash Into Pieces',
+		song : "Big Bang (2020)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Smash Into Pieces',
+		song : "Forever Alone (2020)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Three Days Grace',
+		song : "Mayday (2024)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Volbeat',
+		song : "Shotgun Blues (2021)"
 	}
 ];
 
 let en_2020_gr_1 = en_2020_gr.filter(item => item.pack == 1);
+let en_2020_gr_2 = en_2020_gr.filter(item => item.pack == 2);
 
 let music = [
 	{
@@ -424,6 +567,10 @@ let music = [
 				{
 					arr: en_2020_gr_1,
 					name: 'EN 2020s Groups: Pop',
+				},
+				{
+					arr: en_2020_gr_2,
+					name: 'EN 2020s Groups: Rock',
 				}
 			]
 	}
