@@ -494,11 +494,6 @@ let en_2020_gr = [
 	},
 	{
 		pack : EN_2020_GR_PACK_2,
-		group : 'Lamb of God',
-		song : "Dead Seeds (2020)"
-	},
-	{
-		pack : EN_2020_GR_PACK_2,
 		group : 'Muse',
 		song : "Will Of The People (2022)"
 	},
@@ -551,6 +546,11 @@ let en_2020_gr = [
 		pack : EN_2020_GR_PACK_2,
 		group : 'Volbeat',
 		song : "Shotgun Blues (2021)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Lamb of God',
+		song : "Dead Seeds (2020)"
 	}
 ];
 
