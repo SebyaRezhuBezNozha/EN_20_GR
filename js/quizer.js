@@ -565,12 +565,12 @@ let music = [
 		type: 'gr',
 		packs: [
 				{
-					arr: en_2020_gr_1,
-					name: 'EN 2020s Groups: Pop',
-				},
-				{
 					arr: en_2020_gr_2,
 					name: 'EN 2020s Groups: Rock',
+				},
+				{
+					arr: en_2020_gr_1,
+					name: 'EN 2020s Groups: Pop',
 				}
 			]
 	}
