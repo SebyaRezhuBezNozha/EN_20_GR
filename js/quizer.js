@@ -374,12 +374,12 @@ let en_2020_gr = [
 		ignore : true
 	},
 	{
-		pack : EN_2020_GR_PACK_2,
+		pack : EN_2020_GR_PACK_1,
 		group : 'Imagine Dragons',
 		song : "Bones (2022)"
 	},
 	{
-		pack : EN_2020_GR_PACK_2,
+		pack : EN_2020_GR_PACK_1,
 		group : 'Imagine Dragons',
 		song : "Enemy  (2021)"
 	},
@@ -414,7 +414,7 @@ let en_2020_gr = [
 		song : "Seasons (2023)"
 	},
 	{
-		pack : EN_2020_GR_PACK_2,
+		pack : EN_2020_GR_PACK_1,
 		group : '5 Seconds of Summer',
 		song : "Lonely Heart (2020)"
 	},
@@ -434,7 +434,7 @@ let en_2020_gr = [
 		song : "Dark Void (2024)"
 	},
 	{
-		pack : EN_2020_GR_PACK_2,
+		pack : EN_2020_GR_PACK_1,
 		group : 'Bastille',
 		song : "Distorted Light Beam (2021)"
 	},
@@ -454,7 +454,7 @@ let en_2020_gr = [
 		song : "Stop Waiting (2023)"
 	},
 	{
-		pack : EN_2020_GR_PACK_2,
+		pack : EN_2020_GR_PACK_1,
 		group : 'Coldplay',
 		song : "My Universe (ft BTS) (2021)"
 	},
@@ -489,7 +489,7 @@ let en_2020_gr = [
 		song : "Holy Toledo! (2021)"
 	},
 	{
-		pack : EN_2020_GR_PACK_2,
+		pack : EN_2020_GR_PACK_1,
 		group : 'KALEO',
 		song : "Hey Gringo (2021)"
 	},
@@ -514,12 +514,12 @@ let en_2020_gr = [
 		song : "The Attack Of The Dead Men (2020)"
 	},
 	{
-		pack : EN_2020_GR_PACK_2,
+		pack : EN_2020_GR_PACK_1,
 		group : 'Score',
 		song : "Fighter (2022)"
 	},
 	{
-		pack : EN_2020_GR_PACK_2,
+		pack : EN_2020_GR_PACK_1,
 		group : 'Score',
 		song : "Head Up (2021)"
 	},
@@ -554,7 +554,7 @@ let en_2020_gr = [
 		song : "Dead Seeds (2020)"
 	},
 	{
-		pack : EN_2020_GR_PACK_2,
+		pack : EN_2020_GR_PACK_1,
 		group : 'Imagine Dragons',
 		song : "Lonely (2021)"
 	}
@@ -590,6 +590,7 @@ function map_songs(){
 	$('#mirror').hide();
 	$('#map').hide();
 	$('#package_content').hide();
+	$('#sec_15_hist').show();
 	$('#mapping_content').show();
 	toggleLearn();
 	for(var j=0; j < music.length; j++){
@@ -937,6 +938,15 @@ function back_to_browser(){
 function back_to_current_pack(){
 	back = back_to_browser;
 	$('#mapping_content').hide();
+	$('#sec_15_hist').hide();
+	song_stop();
 	$('#map').show();
 	package_num(pack_num);
+}
+
+function song_stop() {
+	if(audio){
+		audio.pause();
+		audio = null;
+	}
 }
