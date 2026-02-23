@@ -557,6 +557,21 @@ let en_2020_gr = [
 		pack : EN_2020_GR_PACK_1,
 		group : 'Imagine Dragons',
 		song : "Lonely (2021)"
+	},
+	{
+		pack : EN_2020_GR_PACK_1,
+		group : 'BTS',
+		song : "Dynamite (2020)"
+	},
+	{
+		pack : EN_2020_GR_PACK_1,
+		group : 'BTS',
+		song : "Butter (2021)"
+	},
+	{
+		pack : EN_2020_GR_PACK_1,
+		group : 'BTS',
+		song : "ON (2020)"
 	}
 ];
 
