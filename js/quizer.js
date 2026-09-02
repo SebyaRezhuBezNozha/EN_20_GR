@@ -376,12 +376,14 @@ let en_2020_gr = [
 	{
 		pack : EN_2020_GR_PACK_1,
 		group : 'Imagine Dragons',
-		song : "Bones (2022)"
+		song : "Bones (2022)",
+		ignore : true
 	},
 	{
 		pack : EN_2020_GR_PACK_1,
 		group : 'Imagine Dragons',
-		song : "Enemy  (2021)"
+		song : "Enemy  (2021)",
+		ignore : true
 	},
 	{
 		pack : EN_2020_GR_PACK_1,
@@ -421,7 +423,8 @@ let en_2020_gr = [
 	{
 		pack : EN_2020_GR_PACK_2,
 		group : 'A Day to Remember',
-		song : "Mindreader (2020)"
+		song : "Mindreader (2020)",
+		ignore : true
 	},
 	{
 		pack : EN_2020_GR_PACK_2,
@@ -441,7 +444,8 @@ let en_2020_gr = [
 	{
 		pack : EN_2020_GR_PACK_2,
 		group : 'Black Keys',
-		song : "Wild Child (2022)"
+		song : "Wild Child (2022)",
+		ignore : true
 	},
 	{
 		pack : EN_2020_GR_PACK_2,
@@ -451,7 +455,8 @@ let en_2020_gr = [
 	{
 		pack : EN_2020_GR_PACK_2,
 		group : 'Cigarettes After Sex',
-		song : "Stop Waiting (2023)"
+		song : "Stop Waiting (2023)",
+		ignore : true
 	},
 	{
 		pack : EN_2020_GR_PACK_1,
@@ -486,22 +491,26 @@ let en_2020_gr = [
 	{
 		pack : EN_2020_GR_PACK_2,
 		group : 'Green Day',
-		song : "Holy Toledo! (2021)"
+		song : "Holy Toledo! (2021)",
+		ignore : true
 	},
 	{
 		pack : EN_2020_GR_PACK_1,
 		group : 'KALEO',
-		song : "Hey Gringo (2021)"
+		song : "Hey Gringo (2021)",
+		ignore : true
 	},
 	{
 		pack : EN_2020_GR_PACK_2,
 		group : 'Muse',
-		song : "Will Of The People (2022)"
+		song : "Will Of The People (2022)",
+		ignore : true
 	},
 	{
 		pack : EN_2020_GR_PACK_2,
 		group : 'Placebo',
-		song : "Forever Chemicals (2022)"
+		song : "Forever Chemicals (2022)",
+		ignore : true
 	},
 	{
 		pack : EN_2020_GR_PACK_2,
@@ -526,7 +535,8 @@ let en_2020_gr = [
 	{
 		pack : EN_2020_GR_PACK_2,
 		group : 'Slaughter to Prevail',
-		song : "Demolisher (2020)"
+		song : "Demolisher (2020)",
+		ignore : true
 	},
 	{
 		pack : EN_2020_GR_PACK_2,
@@ -541,7 +551,8 @@ let en_2020_gr = [
 	{
 		pack : EN_2020_GR_PACK_2,
 		group : 'Three Days Grace',
-		song : "Mayday (2024)"
+		song : "Mayday (2024)",
+		ignore : true
 	},
 	{
 		pack : EN_2020_GR_PACK_2,
@@ -556,7 +567,8 @@ let en_2020_gr = [
 	{
 		pack : EN_2020_GR_PACK_1,
 		group : 'Imagine Dragons',
-		song : "Lonely (2021)"
+		song : "Lonely (2021)",
+		ignore : true
 	},
 	{
 		pack : EN_2020_GR_PACK_1,
