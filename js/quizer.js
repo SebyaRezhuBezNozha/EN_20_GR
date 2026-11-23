@@ -584,6 +584,11 @@ let en_2020_gr = [
 		pack : EN_2020_GR_PACK_1,
 		group : 'BTS',
 		song : "ON (2020)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Bad Omens',
+		song : "Just Pretend (2022)"
 	}
 ];
 
